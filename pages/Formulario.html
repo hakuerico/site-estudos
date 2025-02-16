@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="shortcut icon" href="../images/icon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+        <label for="username">Usuário</label>
+        <input type="text" id="username" required placeholder="Bananinho"  minlength="6" maxlength="10">
+        <br>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password"  minlength="6" maxlength="10" placeholder="senha" required>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email@email.com">
+        <br>
+
+        <label for="phone">Telefone</label>
+        <input type="tel" id="phone" placeholder="(11)98765-4321" pattern="9[0-9]{8}"> <!--pattern para ser um formato específico-->
+        <br>
+
+        <label for="bday">Aniversário</label>
+        <input type="date" id="bday">
+        <br>
+
+        <label for="quantity">Quantidade</label>
+        <input type="number" id="quantity" min="0" max="99" value="50">
+        <br>
+
+
+        <label for="title">Título:</label>
+        <br>
+
+        <label for="Sr.">Senhor</label>
+        <input type="radio" id="Sr." value="Sr." name="Título">
+
+        <label for="Sra.">Senhora</label>
+        <input type="radio" id="Sra." value="Sra." name="Título">
+
+        <label for="Dr.">Doutor</label>
+        <input type="radio" id="Dr." value="Dr." name="Título">
+
+        <br>
+
+        <label for="payment">Pagamento</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Cartão-Presente">Cartão-Presente</option>
+        </select>
+        <br>
+
+        <label for="subscribe">Inscrever</label>
+        <input type="checkbox" id="subscribe">
+        <br>
+
+        <label for="comment">Comente:</label><br>
+        <textarea id="comment" rows="3" columns="20"></textarea>
+        <br>
+
+        <label for="file">Arquivo</label>
+        <input type="file" id="file" accept="image/png,image/jpeg">
+        <br>
+
+
+
+        <br>
+        <input type="reset">
+        <input type="submit" >
+
+    </form>
+
+
+    
+    <br>
+    <a href="../index.html" rel="last"><button style="font-size: 20px; background-color: brown; color: antiquewhite; border-radius: 9px;" title="Página principal">voltar</button></a>
+</body>
+</html>

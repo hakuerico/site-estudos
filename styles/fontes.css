@@ -1,0 +1,41 @@
+/* Para usar fontes locais (uma font-face  rule para cada fonte desejada: */
+@font-face{
+    src: url(../fonts/Jacquard12-Regular.ttf);
+    font-family: Jacquard12
+}
+
+h1{
+    font-family: Verdana,'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    font-size: 30px;
+    background-color: antiquewhite;
+}
+
+.serif{
+    font-family: serif;
+}
+
+.sans-serif{
+    font-family: sans-serif;
+}
+
+/* Fontes do Google fonts */
+#p1{
+    font-family: Sigmar;
+}
+
+#p2{
+    font-family: Monomakh;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#p3{
+    font-family: Jacquard12;
+}

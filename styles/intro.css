@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(32, 32, 32);
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+/* Para usar tag com id usar # antes do id */
+#paragrafo-external{
+    color: rgb(223, 106, 106);
+}
+/* Para usar tag com classe usar . antes da classe */
+
+.Explicativo{
+    font-size: 50%;
+}

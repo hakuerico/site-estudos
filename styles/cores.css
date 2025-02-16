@@ -1,0 +1,23 @@
+body{
+    /* Cor por nome */
+    background-color: blanchedalmond ;
+}
+
+#p1{
+    color: tomato;
+}
+
+#p2{
+    /* Por código rgb */
+    color: rgb(44, 139, 98);
+}
+
+#p3{
+    /* Por código hexadecimal (começar com #) */
+    color: #781f6f;
+}
+
+#p4{
+    /* Por hsl */
+    color: hsl(208, 64%, 41%);
+}

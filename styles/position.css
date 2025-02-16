@@ -1,0 +1,40 @@
+div{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+
+#box1{
+    position: relative;
+    left: 300px;
+}
+
+#box2{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+#box3{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    
+    
+}
+
+#box4{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+
+#box5{
+    position: static;
+
+}

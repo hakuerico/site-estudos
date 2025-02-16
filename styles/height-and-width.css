@@ -1,0 +1,23 @@
+/* Todos os elementos com "*" */
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.box{
+    background-color: brown;
+    margin-bottom: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-height: 50%;
+    
+}

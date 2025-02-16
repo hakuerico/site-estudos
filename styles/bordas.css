@@ -1,0 +1,21 @@
+#h1{
+    /* Uma propriedade por vez */
+    border-style: double;
+    border-width: 10px;
+    border-color: rgb(44, 101, 151);
+    border-radius: 10px;
+}
+
+#h2{
+    /* Várias propriedades juntas */
+    border: 2px solid rgb(92, 203, 223);
+    border-radius: 10px
+}
+p{
+    /* Borda só em  uma parte */
+    border-bottom: 3px solid rgb(255, 104, 104);
+    border-top: 10px double rgb(230, 179, 85);
+    border-left: 5px dotted rgb(102, 186, 243);
+    border-right: 2px dashed rgb(86, 190, 86);
+    border-radius: 10px;
+}

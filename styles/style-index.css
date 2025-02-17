@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgb(243, 215, 179);
+    margin: auto;
+    display: inline-block;
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    color: rgb(49, 49, 49);
+}
+a:hover{
+    background-color: rgb(212, 247, 201);
+    color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+
+
+#boxhtml{
+    text-align: center;
+    border-radius: 10px;
+}
+#boxhtml h2{
+    text-align: left;
+    margin-left: 150px;
+}
+
+#boxcss{
+    text-align: center;
+    border-radius: 10px;
+
+}
+#boxcss h2{
+    text-align: left;
+    margin-left: 150px;
+}
+
+header{
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 50px;
+}
+header h1{
+    display: inline;
+    text-shadow: 2px 2px 20px rgb(59, 59, 59);
+    font-family: Impact;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    font-size: 50px;
+}
+
+#github{
+    position: fixed;
+    position: sticky;
+    top: 0px;
+
+    
+}
+#github a{
+    font-size: 1.3em;
+    background-color: rgb(218, 219, 219);
+}
+#github a:hover{
+    background-color: rgb(243, 227, 227);
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(49, 49, 49);
+    
+}
+footer{
+    text-align: center;
+}
+footer a{
+    visibility: hidden;
+}
+
+footer:hover a{
+    visibility: visible;
+}

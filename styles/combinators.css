@@ -1,0 +1,23 @@
+.container{
+    border: 2px solid;
+}
+
+/* aplica propriedades em todo p que é descentente de #container1 */
+#container1 p{
+    background-color: rgb(255, 127, 238);
+}
+
+/* aplica propriedades em todo p que é filho de #container2 (todo filho é descentente mas nem todo descendente é filho */
+#container2 > p{
+    background-color: rgb(127, 140, 255);
+
+}
+
+/* aplica propriedades em todo p que é irmão de forma geral de #container3 (mesmo "nível")*/
+#container3 ~ p{
+    background-color: rgb(127, 255, 133);
+}
+
+#container4 + p{
+    background-color: rgb(255, 174, 127);
+}

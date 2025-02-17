@@ -10,8 +10,69 @@
 </head>
 <body>
     <h1>Combinators</h1>
-    
+    <!-- Explica arelação  entre seletores listados
+             = descendente
+            > = filho
+            ~ = irmão geral
+            + = irmão adjacente
 
+        exemplo: seletor1 > seletor2
+                 div > p (as propriedades css da div serão aplicados  aos parágrafos)
+    -->
+    
+    <h2>Descendant: </h2>
+    <div id="container1" class="container">
+        <p>Parágrafo dentro do container</p>
+        <p>Parágrafo dentro do container</p>
+        <div>
+            <p>Parágrafo dentro de uma div dentro do container</p>
+        </div>
+
+    </div>
+    <p>Parágrafo fora do container</p>
+    <p>Parágrafo fora do container</p>
+
+    <hr>
+
+    <h2>Child: </h2>
+    <div id="container2" class="container">
+        <p>Parágrafo dentro do container</p>
+        <p>Parágrafo dentro do container</p>
+        <div>
+            <p>Parágrafo dentro de uma div dentro do container</p>
+        </div>
+
+    </div>
+    <p>Parágrafo fora do container</p>
+    <p>Parágrafo fora do container</p>
+
+    <hr>
+
+    <h2>General Sibling: </h2>
+    <div id="container3" class="container">
+        <p>Parágrafo dentro do container</p>
+        <p>Parágrafo dentro do container</p>
+        <div>
+            <p>Parágrafo dentro de uma div dentro do container</p>
+        </div>
+
+    </div>
+    <p>Parágrafo fora do container</p>
+    <p>Parágrafo fora do container</p>
+
+    <hr>
+
+    <h2>Adjacent Sibling: </h2>
+    <div id="container4" class="container">
+        <p>Parágrafo dentro do container</p>
+        <p>Parágrafo dentro do container</p>
+        <div>
+            <p>Parágrafo dentro de uma div dentro do container</p>
+        </div>
+
+    </div>
+    <p>Parágrafo fora do container</p>
+    <p>Parágrafo fora do container</p>
 
     
     <hr>

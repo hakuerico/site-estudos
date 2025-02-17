@@ -1,0 +1,56 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: aliceblue;
+
+}
+button:active{
+    font-size: 1.1em;
+    background-color: rgb(161, 186, 207);
+}
+
+a:link{
+    color: brown;
+    font-size: 2em;
+}
+
+a:hover{
+    color: rgb(204, 68, 68);
+    font-size: 2.1em;
+}
+
+a:active{
+    font-size: 2.1em;
+    color: rgb(96, 96, 240);
+}
+
+a:visited{
+    color: rgb(28, 224, 87);
+}
+
+li:hover{
+    background-color: bisque;
+    max-width: 200px;
+}
+
+li:not(:hover){
+    background-color: rgb(163, 163, 163);
+    max-width: 200px;
+}
+
+/* 4n é "a cada 4", +1 adiciona 1, também pode  usar números, even,  odd */
+li:nth-child(4n+1){
+    background-color: aqua;
+}
+li:active{
+    background-color: aquamarine;
+}
+
+#oculto p{
+    background-color: aqua;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#oculto:hover p{
+    visibility: visible;
+}

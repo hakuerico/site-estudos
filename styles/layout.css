@@ -120,7 +120,7 @@ footer{
     padding: 10px;
 }
 
-@media (max-Width:600px){
+@media (max-Width:360px){
     aside, section,  article{
         width: 100%;
     }

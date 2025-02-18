@@ -35,6 +35,7 @@ nav li{
 nav ul{
     list-style-type: none;
     overflow: hidden;
+    padding-left: 10px;
 }
 
 nav button{
@@ -133,6 +134,12 @@ footer{
         margin-right: 10px;
         display: block;
     }
+    nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        padding-left: 2px;
+    }
+    
 
 }
 

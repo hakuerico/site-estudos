@@ -120,9 +120,19 @@ footer{
     padding: 10px;
 }
 
-@media (max-Width:360px){
+@media (max-Width:650px){
     aside, section,  article{
         width: 100%;
     }
+    nav button{
+        padding:2px;
+        font-size: 1.5em;
+        border: none;
+        margin-right: 2px;
+        background-color: #d0d0d7;
+        margin-right: 10px;
+        display: block;
+    }
+
 }
 

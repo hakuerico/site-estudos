@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    padding: 10px;
+}
+
+/* Nav: ------------------------------------------------------------ */
+
+.drop{
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    box-shadow: 2px 2px 5px;
+
+}
+
+nav {
+    background-color: #d0d0d7;
+    max-height: 49px;
+    margin-bottom: 30px;
+    
+}
+
+nav li{
+    float: left;
+    overflow: hidden;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav button{
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+    margin-right: 2px;
+    background-color: #d0d0d7;
+    margin-right: 10px;
+    display: block;
+    margin-right: 10px;
+}
+
+
+
+nav .menu:hover .drop{
+    display: inline-block;
+    
+}
+
+nav .menu:hover{
+    background-color: #e8e8f0;
+    color: rgb(88, 88, 88);
+}
+
+nav .menu:hover button{
+    background-color: #e8e8f0;
+    color: rgb(88, 88, 88);
+}
+
+
+nav a{
+    background-color: #d0d0d7;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+nav a:hover{
+    color: rgb(88, 88, 88);
+    background-color: #e8e8f0;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+    
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+}
+
+main div{
+    border: solid 1px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-Width:600px){
+    aside, section,  article{
+        width: 100%;
+    }
+}
+

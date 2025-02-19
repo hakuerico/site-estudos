@@ -1,0 +1,43 @@
+.icons{
+    text-align: center;
+
+
+}
+
+.material-symbols-outlined{
+    color: blueviolet;
+
+}
+
+.material-symbols-outlined:hover{
+    color: rgb(167, 103, 228);
+
+}
+
+
+/* Espaços substituidos por "." */
+.fa-brands.fa-twitter.fa-2x{
+    color: rgb(0, 174, 255);
+}
+.fa-brands.fa-twitter.fa-2x:hover{
+    color: rgb(68, 191, 248);
+}
+
+.fa-brands.fa-youtube.fa-2x{
+    color: #ff0033;
+}
+.fa-brands.fa-youtube.fa-2x:hover{
+    color: hsl(348, 100%, 60%);
+}
+
+.fa-solid.fa-thumbs-up.fa-2x{
+    color: #3f3f3f;
+}
+.fa-solid.fa-thumbs-up.fa-2x:hover{
+    color: #797979;
+}
+
+/* Remover linha embaixo dos links */
+.icons a{
+    text-decoration: none;
+}

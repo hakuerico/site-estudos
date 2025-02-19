@@ -14,21 +14,22 @@ header{
 .drop{
     display: none;
     position: absolute;
-    min-width: 110px;
+    min-width: 120px;
     box-shadow: 2px 2px 5px;
 
 }
 
 nav {
     background-color: #d0d0d7;
-    max-height: 49px;
     margin-bottom: 30px;
+    padding: 0px;
     
 }
 
 nav li{
     float: left;
     overflow: hidden;
+
     
 }
 
@@ -36,18 +37,21 @@ nav ul{
     list-style-type: none;
     overflow: hidden;
     padding-left: 10px;
+    margin: 0px;
+    padding-left: 0px;
 }
 
 nav button{
     padding: 10px;
     font-size: 1.5em;
     border: none;
-    margin-right: 2px;
     background-color: #d0d0d7;
     margin-right: 10px;
     display: block;
     margin-right: 10px;
+
 }
+
 
 
 
@@ -127,7 +131,7 @@ footer{
     }
     nav button{
         padding:2px;
-        font-size: 1em;
+        font-size: 1.5em;
         border: none;
         margin-right: 2px;
         background-color: #d0d0d7;

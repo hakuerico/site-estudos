@@ -102,6 +102,11 @@ h2{
 footer{
     text-align: center;
 }
+footer>p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
 footer a{
     visibility: hidden;
 }
